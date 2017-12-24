@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 20px;
+  font-family: "Shadows Into Light Two";
+  font-size: 1.5em;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+nav {
+  height: 50px;
+  background-color: rgba(0,0,0,.5);
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  text-align: center;
+  font-family: "Shadows Into Light Two";
+  font-size: 1.6em;
+  display: inline-block;
+  }
+
+form {
+text-align: center;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
+  line-height: 50px;
+  padding-right: 10px;
+
+}
+
+.sect {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  }
+
+.subsect2 form{
+  height: 900px;
+  background-color: #B7BEB3;
+  }
+
+.sectone {
+  background-image: url(../images/addressratfink.jpg);
+
+
+}
+
+.secttwo {
+  background-image: url(../images/bike3.jpg);
+}
+
+.sectthree {
+  background-image: url(../images/bike1.jpg);
+}
