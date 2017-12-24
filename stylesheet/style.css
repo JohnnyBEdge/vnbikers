@@ -4,6 +4,7 @@
 
 html, body {
   height: 100%;
+
   }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -46,11 +47,12 @@ nav a{
 
 .sect {
   height: 100%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: black;
 
-  }
+    }
 
 .subsect2 form{
   height: 900px;
@@ -59,14 +61,60 @@ nav a{
 
 .sectone {
   background-image: url(../images/addressratfink.jpg);
-
-
-}
+  display: block;
+  margin: auto;
+  background-position: center;
+  }
 
 .secttwo {
   background-image: url(../images/bike3.jpg);
+  display: block;
+  background-position: center;
 }
+
+.subsect{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.subsect2 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.subsect2 hr {
+  margin-top: 20px;
+  }
 
 .sectthree {
   background-image: url(../images/bike1.jpg);
+  display: block;
+  margin: auto;
+  background-position: center;
 }
+
+.subsect3 {
+  margin: 25px 100px;
+}
+
+.subsect3 p{
+  margin: 0;
+}
+
+.subsect3 legend h2{
+  font-family: "Shadows Into Light Two";
+  padding: 0;
+  margin: 0;
+  }
+
+  footer {
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+    font-family: "Shadows Into Light Two";
+    font-size: 1.6em;
+    display: inline-block;
+    }

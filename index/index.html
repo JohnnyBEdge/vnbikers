@@ -15,7 +15,7 @@
     <a href="#">Home</a>
     <a href="#">About Us</a>
     <a href="#">Services</a>
-    <a href="#">Contact</a>
+    <a href="#contact">Contact</a>
   </nav>
 
   <div class="sect sectone"></div>
@@ -33,7 +33,10 @@
   </div>
 
   <div class="sect secttwo"></div>
+
   <div class="subsect2">
+    <hr>
+    <legend><h2>SERVICES</h2></legend>
       <ul>
         <li>Maintenance or Repairs</li>
         <li>Modifications</li>
@@ -51,18 +54,21 @@
   <div class="sect sectthree"></div>
   <div class="subsect3">
     <form action="#" method="POST" name="build_info">
-    <fieldset>
-      <legend>Contact Us</legend>
+    <fieldset id="contact">
+      <legend><h2>CONTACT US</h2></legend>
       <p>Name:</p>
-    <p><input type="text" name="name" value="Your name"><br></p>
+    <p><input type="text" name="name" value="Your name"></p>
 
       <p>Email:</p>
+      <br>
     <input type="text" name="email" value="Email"><br>
 
       <p>Phone Number:</p>
+      <br>
     <input type="text" name="phone_number" value="Phone number"><br>
 
     <p>Service wanted:</p>
+    <br>
     <input type="radio" name="service" value:"service">Maintainence/Repairs<br>
     <input type="radio" name="service" value:"service">Modifications<br>
     <input type="radio" name="service" value:"service">Custom Build<br>
@@ -70,13 +76,17 @@
 
 
     <p>Comments:</p>
-    <p><textarea rows="10" cols="75" name="comments"> Tell us a little about yourself and what you'd like done</textarea></p>
+    <p><textarea rows="10" cols="75" name="comments"> Tell us a little about yourself and what you'd like done.</textarea></p>
 
     <input type="submit" value="Submit">
     </fieldset>
     </form>
   </div>
 
+<footer>
+<p>test test test test test test test test test test test test test test test test test test test test test test test test test </p>
+
+</footer>
 
 
 </body>
